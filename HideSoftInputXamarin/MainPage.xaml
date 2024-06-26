@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="HideSoftInputXamarin.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ScrollView>
+        <StackLayout
+            Padding="30,0"
+            Orientation="Vertical"
+            Spacing="25">
+            <Image
+                Aspect="AspectFit"
+                BackgroundColor="#2196f3"
+                HeightRequest="185"
+                Source="xamarin_logo.png" />
+            <Label Style="{StaticResource Headline}" Text="Hello, World!" />
+            <Label Style="{StaticResource SubHeadline}" Text="Welcome to Xamarin.Forms" />
+            <Button
+                x:Name="NavigateBtn"
+                Clicked="NavigateBtn_Clicked"
+                HorizontalOptions="Fill"
+                Text="Go to SecondPage" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
