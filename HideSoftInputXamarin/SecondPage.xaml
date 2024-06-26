@@ -27,7 +27,7 @@
                 </Frame.GestureRecognizers>
                 <Label
                     HorizontalTextAlignment="Center"
-                    Text="Go to ThirdPage by Border"
+                    Text="Go to ThirdPage by Frame"
                     VerticalTextAlignment="Center" />
             </Frame>
         </StackLayout>
